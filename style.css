@@ -5,14 +5,14 @@
 
 /* navgation */
 .navbar {
-  background-color: black;
+  background-color: #551a97;
   font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
 
 .navbar-brand img {
-  height: 1.8rem;
+  height: 2.7rem;
 }
 
 .navbar-nav .nav-item {
@@ -30,7 +30,7 @@
 
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/spring.png);
   background-size: contain;
 }
 
