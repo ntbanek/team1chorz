@@ -68,9 +68,10 @@
 }
 
 /* clients */
+
 .client{
   width: 90%; /* moze byc tez 100% */
-  border-radius: 50%;
+  border-radius: 25%;
   min-width: 20%;
 }
 
@@ -79,23 +80,23 @@
 
 @media all and (max-width: 767px) {
   .client{
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px){
   .client{
-    max-width: 60%;
+    max-width: 80%;
   }
 }
 
 
 @media all and (min-width: 992px){
   .blockquote p{
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
-
 }
+
 
 /*============= SECTION =============*/
 
