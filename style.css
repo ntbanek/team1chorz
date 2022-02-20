@@ -3,14 +3,15 @@
 
 /* navgation */
 .navbar {
-	background-color: black;
-	font-size: 0.9rem;
-	font-weight: bold;
-	letter-spacing: 0.1rem;
+
+  background-color: #551a97;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }
 
 .navbar-brand img {
-	height: 1.8rem;
+  height: 2.7rem;
 }
 
 .navbar-nav .nav-item {
@@ -28,8 +29,8 @@
 
 /* landing */
 .home-inner {
-	background-image: url(img/computers.png);
-	background-size: contain;
+  background-image: url(img/spring.png);
+  background-size: contain;
 }
 
 .main-heading {
@@ -70,31 +71,36 @@
 }
 
 /* clients */
-.client {
-	width: 90%; /* moze byc tez 100% */
-	border-radius: 50%;
-	min-width: 20%;
+
+
+.client{
+  width: 90%; /* moze byc tez 100% */
+  border-radius: 25%;
+  min-width: 20%;
 }
 
 /* own @media rule */
 
 @media all and (max-width: 767px) {
-	.client {
-		max-width: 50%;
-	}
+
+  .client{
+    max-width: 40%;
+  }
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-	.client {
-		max-width: 60%;
-	}
+@media all and (min-width: 768px) and (max-width: 991px){
+  .client{
+    max-width: 80%;
+  }
 }
 
-@media all and (min-width: 992px) {
-	.blockquote p {
-		font-size: 0.8rem;
-	}
+
+@media all and (min-width: 992px){
+  .blockquote p{
+    font-size: 1rem;
+  }
 }
+
 
 /*============= SECTION =============*/
 
