@@ -74,6 +74,22 @@
   min-width: 20%;
 }
 
+/* footer */
+
+footer, footer a{
+  color: darkgrey;
+}
+
+footer a:hover, footer p, footer h3{
+  color: black;
+}
+
+footer img{
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+
 
 /* own @media rule */
 
